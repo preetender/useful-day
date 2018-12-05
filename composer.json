@@ -1,0 +1,21 @@
+{
+    "name": "preetender/useful-day",
+    "description": "Obtém o dia util de acordo com a data informada.",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "César Augusto",
+            "email": "cesinhagutierres@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Preetender\\" : "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
