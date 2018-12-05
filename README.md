@@ -1,6 +1,7 @@
 # useful-day
 Obtém o dia útil da data informada.
 
+> composer require preetender/useful-day
 
 Com DateTime:
 
@@ -11,7 +12,6 @@ printf("O 5º dia util de dezembro é %s <hr>", $date->getUsefulDayDate('d/m/Y')
 ```
 
 Ira retornar
-
 `O 5º dia util do mês de dezembo é 07/12/2018`
 
 Com Carbon
@@ -23,5 +23,4 @@ printf("O 10º dia util do mês de novembro é %s", $date->getUsefulDayDate('d/m
 ```
 
 Ira retornar
-
 `O 10º dia util do mês de dezembo é 14/11/2018`
